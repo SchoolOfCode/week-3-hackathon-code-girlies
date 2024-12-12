@@ -1,23 +1,31 @@
 <!DOCTYPE html>
-<html lang="en"></html>
-<meta charset="UTF-8">
-<title>The Friday Night 8 Ball</title>
-<head>
-    <link href=“styles.css” rel=“stylesheet”>
+<html lang="en">
+  <meta charset="UTF-8" />
+  <title>The Friday Night 8 Ball</title>
+  <head>
+    <link href="./styles.css" type="text/css" rel="stylesheet" />
     <script src="main.js" defer></script>
-</head>
+  </head>
 
-<body>
+  <body>
+    <div class="appContainer">
+      <h1 id="homeIntro">Welcome to Friday Night 8 ball!! 🎱</h1>
+      <img
+        id="eightBall"
+        src="./$_57.JPG"
+        alt="eightBallImg"
+        class="eightBallImg"
+      />
 
-    <h1 id="homeIntro">Welcome to Friday Night 8 ball!! 🎱</h1>
-    <p id="instructions">Think of a question and click on the button below to view my answer...</p>
+      <div id="adviceDiv" class="adviceDiv">
+        <input type="textarea" id="questionInput" class="questionInput" placeholder="Think of a question and click on the button below to view my answer...">
+      </input>
+        <button type="button" id="clickButton">Click here >>></button>
+      </div>
 
-    <button type ="button" id="clickButton">Click here >>> </button>
-
-    <p id="adviceText"></p>
-
-
-
-</body>
-
+      
+      <p id="adviceText"></p>
+      <footer id="pageFooter" class="pageFooter">©code girlies</footer>
+    </div>
+  </body>
 </html>

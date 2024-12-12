@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  background-color: #a1e0fe;
+}
+
+.eightBallImg {
+  width: 300px;
+}
+
+.appContainer {
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.adviceDiv {
+  justify-content: space-around;
+}
+
+.questionInput {
+  width: 420px;
+}
+
+.pageFooter {
+  margin: 10px 0;
+}
