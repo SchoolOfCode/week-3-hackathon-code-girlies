@@ -31,3 +31,15 @@ function displayFortune(fortune) {
   adviceText.textContent = fortune;
 }
 retrieveFortune();
+
+// add a keydown event listener to detect when the "enter key" is pressed
+const questionInput = document.getElementById("questionInput");
+
+questionInput.addEventListener("keydown", (event) =>{ 
+    if (event.key === "Enter"){
+        // preventDefault();
+        document.getElementById("clickButton").click();
+        questionInput.value= " ";
+        console.log ('Enter key pressed');
+    }
+})
