@@ -8,6 +8,7 @@ clickHereButton.addEventListener("click", getAndDisplayFortune);
 async function getAndDisplayFortune() {
   const fortune = await retrieveFortune();
   displayFortune(fortune);
+  questionInput.value= " ";
 }
 
 // 'fetch advice from API' function
@@ -37,7 +38,6 @@ const questionInput = document.getElementById("questionInput");
 
 questionInput.addEventListener("keydown", (event) =>{ 
     if (event.key === "Enter"){
-        document.getElementById("clickButton").click();
 
 // this clears the question input field once enter pressed/button clicked
         questionInput.value= " ";    
