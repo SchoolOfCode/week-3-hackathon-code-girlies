@@ -37,9 +37,10 @@ const questionInput = document.getElementById("questionInput");
 
 questionInput.addEventListener("keydown", (event) =>{ 
     if (event.key === "Enter"){
-        // preventDefault();
         document.getElementById("clickButton").click();
-        questionInput.value= " ";
+
+// this clears the question input field once enter pressed/button clicked
+        questionInput.value= " ";    
         console.log ('Enter key pressed');
     }
 })
