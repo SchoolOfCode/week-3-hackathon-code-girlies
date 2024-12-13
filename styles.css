@@ -3,8 +3,18 @@ body {
   background-color: #a1e0fe;
 }
 
-.eightBallImg {
+.eightBallTopImg {
   width: 300px;
+}
+
+.adviceText {
+  color: white;
+  position: absolute;
+  top: 44%;
+  left: 50%;
+  width: 110px;
+  transform: translate(-50%, -50%);
+  text-align: center;
 }
 
 .appContainer {
