@@ -15,7 +15,7 @@ body {
   position: relative;
   z-index: 1000;
   right: 20%;
-  visibility: hidden;
+  /*visibility: hidden;*/
 }
 
 .adviceText {
@@ -27,6 +27,8 @@ body {
   transform: translate(-50%, -50%);
   text-align: center;
   z-index: 2;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
 }
 
 .appContainer {
@@ -48,4 +50,8 @@ body {
 
 .pageFooter {
   margin: 10px 0;
+}
+
+#homeIntro {
+  font-family: 'Courier New', Courier, monospace;
 }

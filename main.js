@@ -44,3 +44,19 @@ questionInput.addEventListener("keydown", (event) =>{
         console.log ('Enter key pressed');
     }
 })
+
+
+const magic8balltop = document.getElementById("eightBallTop");
+
+function top8BallVanish() {
+  magic8balltop.style.opacity = 0;
+}
+
+function top8ballReappear() {
+  magic8balltop.style.opacity = 100;
+}
+
+
+magic8balltop.addEventListener("mouseover", top8BallVanish);
+magic8balltop.addEventListener("mouseleave", top8ballReappear);
+
