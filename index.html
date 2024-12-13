@@ -9,13 +9,22 @@
 
   <body>
     <div class="appContainer">
-      <h1 id="homeIntro">Welcome to Friday Night 8 ball!! 🎱</h1>
+      <h1 id="homeIntro">Welcome to Friday Night 8 ball!!</h1>
+      <div class="imageContainer">
       <img
-        id="eightBall"
-        src="./$_57.JPG"
-        alt="eightBallImg"
-        class="eightBallImg"
+        id="eightBallBase"
+        src="magic_8_ball_base_image.png"
+        alt="eightBallBaseImg"
+        class="eightBallBaseImg"
       />
+      <img
+       id="eightBallTop"
+       src="magic_8_ball_top_image.png"
+       alt="eightBallTopImg"
+       class="eightBallTop"
+      />
+      <p id="adviceText" class="adviceText">Your fortune will show here...</p>
+    </div>
 
       <div id="adviceDiv" class="adviceDiv">
         <input type="textarea" id="questionInput" class="questionInput" placeholder="Think of a question and click on the button below to view my answer...">
@@ -24,7 +33,6 @@
       </div>
 
       
-      <p id="adviceText"></p>
       <footer id="pageFooter" class="pageFooter">©code girlies</footer>
     </div>
   </body>

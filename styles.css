@@ -3,8 +3,30 @@ body {
   background-color: #a1e0fe;
 }
 
-.eightBallImg {
+.eightBallBaseImg {
   width: 300px;
+  position: relative;
+  z-index: 1;
+  left: 30%;
+}
+
+.eightBallTop {
+  width: 300px;
+  position: relative;
+  z-index: 1000;
+  right: 20%;
+  visibility: hidden;
+}
+
+.adviceText {
+  color: white;
+  position: absolute;
+  top: 41%;
+  left: 52.5%;
+  width: 110px;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  z-index: 2;
 }
 
 .appContainer {
